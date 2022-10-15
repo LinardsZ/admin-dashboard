@@ -19,3 +19,4 @@ SVG Icons from [Material Design Icons](https://materialdesignicons.com/)
 
 Roboto font from [Google Fonts](https://fonts.google.com/specimen/Roboto)
 
+Profile picture icons from [Freepik](https://www.freepik.com/)
