@@ -14,6 +14,8 @@ This is a mockup of an Admin Dashboard based on The Odin Project curriculum.
 
 ## Credits
 [The Odin Project](https://www.theodinproject.com/)
+
 SVG Icons from [Material Design Icons](https://materialdesignicons.com/)
+
 Roboto font from [Google Fonts](https://fonts.google.com/specimen/Roboto)
 
