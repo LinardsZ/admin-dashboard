@@ -1,4 +1,8 @@
+/* || General styles */
+
+
 :root {
+  --btn-color: #1992d4;
   --sidebar-color: #1992d4;
   --main-bg-color: #e2e8f0;
   --top-bar-color: #ffffff;
@@ -14,11 +18,121 @@ body {
   width: 100vw;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* || Top bar */
+
+
 .top-bar {
   background-color: var(--top-bar-color);
   grid-column: 2 / 7;
   grid-row: 1 / 2;
+  padding: 8px 96px 8px 48px;
 }
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-wrapper:last-child {
+  margin-top: 32px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  height: 24px;
+  color: black;
+  padding: 0;
+  margin: 0 16px 0 0;
+}
+
+.search-btn img {
+  height: 100%;
+}
+
+.search-input {
+  border: none;
+  border-radius: 15px;
+  background-color: #e2e8f0;
+  padding: 8px;
+  width: 60%;
+}
+
+.user-small {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 32px;
+}
+
+.notification-bell {
+  height: 24px;
+}
+
+.profile-picture {
+  height: 48px;
+}
+
+.user-large {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.user-large img {
+  height: 64px;
+}
+
+.user-large > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.project-interactions {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.top-bar-btn {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+}
+
+/* || Sidebar navigation */
+
 
 aside {
   background-color: var(--sidebar-color);
@@ -65,6 +179,18 @@ a img {
   height: 24px;
   margin-right: 24px;
 }
+
+
+.attribution-credits {
+  align-self: center;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-top: auto;
+  padding-bottom: 12px;
+}
+/* || Main content */
+
 
 main {
   background-color: var(--main-bg-color);
