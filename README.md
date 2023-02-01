@@ -10,7 +10,7 @@ This is a mockup of an Admin Dashboard based on The Odin Project curriculum.
 ## Tools Used
 * Visual Studio Code
 * Git
-* Linux Terminal
+* Bash
 
 ## Credits
 [The Odin Project](https://www.theodinproject.com/)
